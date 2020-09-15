@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="www.plotaroute.com" version="1.1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+<desc>Route created on plotaroute.com</desc>
+</metadata>
+<wpt lat="21.140051" lon="72.77355">
+<time>2019-06-04T00:00:00Z</time>
+<name>Start on </name>
+<cmt>Start on </cmt>
+<desc>Start on </desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.140054" lon="72.773567">
+<time>2019-06-04T00:00:01Z</time>
+<name>Turn right</name>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.124547" lon="72.772165">
+<time>2019-06-04T00:21:23Z</time>
+<name>Turn left </name>
+<cmt>Turn left onto Hajir Sachin Bypass Road, NH53</cmt>
+<desc>Turn left onto Hajir Sachin Bypass Road, NH53</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.128786" lon="72.764968">
+<time>2019-06-04T00:32:00Z</time>
+<name>Keep left</name>
+<cmt>Keep left</cmt>
+<desc>Keep left</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.137796" lon="72.751177">
+<time>2019-06-04T00:53:04Z</time>
+<name>Keep right</name>
+<cmt>Keep right</cmt>
+<desc>Keep right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.138123" lon="72.750875">
+<time>2019-06-04T00:53:38Z</time>
+<name>Turn right</name>
+<cmt>Turn right onto Dumas Road</cmt>
+<desc>Turn right onto Dumas Road</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.138303" lon="72.751141">
+<time>2019-06-04T00:54:03Z</time>
+<name>Turn right</name>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.135885" lon="72.754182">
+<time>2019-06-04T00:59:02Z</time>
+<name>Turn left</name>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.136551" lon="72.757591">
+<time>2019-06-04T01:03:23Z</time>
+<name>Keep left</name>
+<cmt>Keep left</cmt>
+<desc>Keep left</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.140054" lon="72.773567">
+<time>2019-06-04T01:23:50Z</time>
+<name>Turn left</name>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<trk>
+<name>Unnamed Route</name>
+<trkseg>
+<trkpt lat="21.140051" lon="72.77355">
+<ele>7</ele>
+<time>2019-06-04T00:00:00Z</time></trkpt>
+<trkpt lat="21.140051" lon="72.77355">
+<ele>7</ele>
+<time>2019-06-04T00:00:00Z</time></trkpt>
+<trkpt lat="21.140054" lon="72.773567">
+<ele>7</ele>
+<time>2019-06-04T00:00:01Z</time></trkpt>
+<trkpt lat="21.137727" lon="72.77353">
+<ele>8</ele>
+<time>2019-06-04T00:03:08Z</time></trkpt>
+<trkpt lat="21.135544" lon="72.773599">
+<ele>9</ele>
+<time>2019-06-04T00:06:03Z</time></trkpt>
+<trkpt lat="21.130554" lon="72.773498">
+<ele>9</ele>
+<time>2019-06-04T00:12:43Z</time></trkpt>
+<trkpt lat="21.127111" lon="72.772983">
+<ele>7</ele>
+<time>2019-06-04T00:17:22Z</time></trkpt>
+<trkpt lat="21.124387" lon="72.772104">
+<ele>9</ele>
+<time>2019-06-04T00:21:10Z</time></trkpt>
+<trkpt lat="21.124387" lon="72.772104">
+<ele>9</ele>
+<time>2019-06-04T00:21:10Z</time></trkpt>
+<trkpt lat="21.124547" lon="72.772165">
+<ele>9</ele>
+<time>2019-06-04T00:21:23Z</time></trkpt>
+<trkpt lat="21.125041" lon="72.771374">
+<ele>8</ele>
+<time>2019-06-04T00:22:34Z</time></trkpt>
+<trkpt lat="21.126338" lon="72.769187">
+<ele>8</ele>
+<time>2019-06-04T00:25:48Z</time></trkpt>
+<trkpt lat="21.128525" lon="72.765399">
+<ele>8</ele>
+<time>2019-06-04T00:31:21Z</time></trkpt>
+<trkpt lat="21.128786" lon="72.764968">
+<ele>7</ele>
+<time>2019-06-04T00:32:00Z</time></trkpt>
+<trkpt lat="21.129602" lon="72.763301">
+<ele>9</ele>
+<time>2019-06-04T00:34:20Z</time></trkpt>
+<trkpt lat="21.131377" lon="72.760182">
+<ele>8</ele>
+<time>2019-06-04T00:38:53Z</time></trkpt>
+<trkpt lat="21.13269" lon="72.757717">
+<ele>10</ele>
+<time>2019-06-04T00:42:26Z</time></trkpt>
+<trkpt lat="21.13292" lon="72.757336">
+<ele>9</ele>
+<time>2019-06-04T00:43:00Z</time></trkpt>
+<trkpt lat="21.133198" lon="72.756917">
+<ele>9</ele>
+<time>2019-06-04T00:43:38Z</time></trkpt>
+<trkpt lat="21.133471" lon="72.756568">
+<ele>9</ele>
+<time>2019-06-04T00:44:12Z</time></trkpt>
+<trkpt lat="21.134594" lon="72.755238">
+<ele>6</ele>
+<time>2019-06-04T00:46:26Z</time></trkpt>
+<trkpt lat="21.135599" lon="72.753967">
+<ele>7</ele>
+<time>2019-06-04T00:48:31Z</time></trkpt>
+<trkpt lat="21.135599" lon="72.753967">
+<ele>7</ele>
+<time>2019-06-04T00:48:31Z</time></trkpt>
+<trkpt lat="21.137371" lon="72.751649">
+<ele>8</ele>
+<time>2019-06-04T00:52:15Z</time></trkpt>
+<trkpt lat="21.137796" lon="72.751177">
+<ele>8</ele>
+<time>2019-06-04T00:53:04Z</time></trkpt>
+<trkpt lat="21.138123" lon="72.750875">
+<ele>9</ele>
+<time>2019-06-04T00:53:38Z</time></trkpt>
+<trkpt lat="21.138303" lon="72.751141">
+<ele>9</ele>
+<time>2019-06-04T00:54:03Z</time></trkpt>
+<trkpt lat="21.137967" lon="72.751462">
+<ele>8</ele>
+<time>2019-06-04T00:54:39Z</time></trkpt>
+<trkpt lat="21.137679" lon="72.75178">
+<ele>8</ele>
+<time>2019-06-04T00:55:12Z</time></trkpt>
+<trkpt lat="21.135885" lon="72.754182">
+<ele>8</ele>
+<time>2019-06-04T00:59:02Z</time></trkpt>
+<trkpt lat="21.136419" lon="72.757173">
+<ele>8</ele>
+<time>2019-06-04T01:02:50Z</time></trkpt>
+<trkpt lat="21.136551" lon="72.757591">
+<ele>8</ele>
+<time>2019-06-04T01:03:23Z</time></trkpt>
+<trkpt lat="21.136602" lon="72.757749">
+<ele>8</ele>
+<time>2019-06-04T01:03:35Z</time></trkpt>
+<trkpt lat="21.137143" lon="72.760196">
+<ele>8</ele>
+<time>2019-06-04T01:06:43Z</time></trkpt>
+<trkpt lat="21.138439" lon="72.765852">
+<ele>8</ele>
+<time>2019-06-04T01:13:59Z</time></trkpt>
+<trkpt lat="21.139247" lon="72.769314">
+<ele>8</ele>
+<time>2019-06-04T01:18:26Z</time></trkpt>
+<trkpt lat="21.139445" lon="72.77007">
+<ele>7</ele>
+<time>2019-06-04T01:19:24Z</time></trkpt>
+<trkpt lat="21.140054" lon="72.773567">
+<ele>7</ele>
+<time>2019-06-04T01:23:50Z</time></trkpt>
+<trkpt lat="21.14022" lon="72.773544">
+<ele>7</ele>
+<time>2019-06-04T01:24:04Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>

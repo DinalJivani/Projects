@@ -1,0 +1,95 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;\f2\fnil\fcharset0 LucidaGrande-Bold;
+\f3\fmodern\fcharset0 Courier;\f4\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red39\green78\blue192;
+\red83\green83\blue83;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c20000\c40000\c80000;
+\cssrgb\c40000\c40000\c40000;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 Background Execution\
+
+\fs24 -> https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html\
+\
+\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f1\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 When the user is not actively using your app, the system moves it to the background state. For many apps, the background state is just a brief stop on the way to the app being suspended. Suspending apps is a way of improving battery life it also allows the system to devote important system resources to the new foreground app that has drawn the user\'92s attention.\
+\
+An audio app might need to continue playing music over the lock screen. \
+Other apps might want to download content in the background so that it can minimize the delay in presenting that content to the user. \
+When you find it necessary to keep your app running in the background, iOS helps you do so efficiently and without draining system resources or the user\'92s battery. The techniques offered by iOS fall into three categories:\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl320\partightenfactor0
+\ls1\ilvl0\cf2 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Apps that start a short task in the foreground can ask for time to finish that task when the app moves to the background.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Apps that initiate downloads in the foreground can hand off management of those downloads to the system, thereby allowing the app to be suspended or terminated while the download continues.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Apps that need to run in the background to support specific types of tasks can declare their support for one or more background execution modes.\
+\pard\tx566\pardeftab720\sl320\partightenfactor0
+\cf2 \
+
+\f2\b\fs32 Executing Finite Length Task :
+\f1\b0\fs26 \
+\
+\pard\pardeftab720\sl320\sa216\partightenfactor0
+\cf2 \cb3 Apps moving to the background are expected to put themselves into a quiescent state as quickly as possible so that they can be suspended by the system. If your app is in the middle of a task and needs a little extra time to complete that task, it can call the\'a0{\field{\*\fldinst{HYPERLINK "https://developer.apple.com/documentation/uikit/uiapplication/1623051-beginbackgroundtask"}}{\fldrslt 
+\f3\fs26\fsmilli13390 \cf4 \strokec4 beginBackgroundTaskWithName:expirationHandler:}}\'a0or\'a0{\field{\*\fldinst{HYPERLINK "https://developer.apple.com/documentation/uikit/uiapplication/1623031-beginbackgroundtaskwithexpiratio"}}{\fldrslt 
+\f3\fs26\fsmilli13390 \cf4 \strokec4 beginBackgroundTaskWithExpirationHandler:}}\'a0method of the\'a0
+\f3\fs26\fsmilli13390 \cf5 \strokec5 UIApplication
+\f1\fs26 \cf2 \strokec2 \'a0object to request some additional execution time. Calling either of these methods delays the suspension of your app temporarily, giving it a little extra time to finish its work. Upon completion of that work, your app must call the\'a0{\field{\*\fldinst{HYPERLINK "https://developer.apple.com/documentation/uikit/uiapplication/1622970-endbackgroundtask"}}{\fldrslt 
+\f3\fs26\fsmilli13390 \cf4 \strokec4 endBackgroundTask:}}\'a0method to let the system know that it is finished and can be suspended.\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 Each call to the\'a0
+\f3\fs26\fsmilli13390 \cf5 \strokec5 beginBackgroundTaskWithName:expirationHandler:
+\f1\fs26 \cf2 \strokec2 \'a0or\'a0
+\f3\fs26\fsmilli13390 \cf5 \strokec5 beginBackgroundTaskWithExpirationHandler:
+\f1\fs26 \cf2 \strokec2 \'a0method generates a unique token to associate with the corresponding task. When your app completes a task, it must call the\'a0
+\f3\fs26\fsmilli13390 \cf5 \strokec5 endBackgroundTask:
+\f1\fs26 \cf2 \strokec2 \'a0method with the corresponding token to let the system know that the task is complete. Failure to call the\'a0
+\f3\fs26\fsmilli13390 \cf5 \strokec5 endBackgroundTask:
+\f1\fs26 \cf2 \strokec2 \'a0method for a background task will result in the termination of your app. If you provided an expiration handler when starting the task, the system calls that handler and gives you one last chance to end the task and avoid termination.\
+\
+
+\f2\b\fs28 Implementing Long running Task :
+\f1\b0\fs26 \cb1 \
+\
+\pard\pardeftab720\sl320\sa216\partightenfactor0
+\cf2 For tasks that require more execution time to implement, you must request specific permissions to run them in the background without their being suspended. In iOS, only specific app types are allowed to run in the background:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl320\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Apps that play audible content to the user while in the background, such as a music player app
+\f4\fs24 \
+\ls2\ilvl0
+\f1\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Apps that record audio content while in the background
+\f4\fs24 \
+\ls2\ilvl0
+\f1\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Apps that keep users informed of their location at all times, such as a navigation app
+\f4\fs24 \
+\ls2\ilvl0
+\f1\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Apps that support Voice over Internet Protocol (VoIP)
+\f4\fs24 \
+\ls2\ilvl0
+\f1\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Apps that need to download and process new content regularly
+\f4\fs24 \
+\ls2\ilvl0
+\f1\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Apps that receive regular updates from external accessories
+\f4\fs24 \
+\pard\pardeftab720\sl320\sa216\partightenfactor0
+
+\f1\fs26 \cf2 Apps that implement these services must declare the services they support and use system frameworks to implement the relevant aspects of those services. Declaring the services lets the system know which services you use, but in some cases it is the system frameworks that actually prevent your application from being suspended.\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f4\fs24 \cf2 \
+}

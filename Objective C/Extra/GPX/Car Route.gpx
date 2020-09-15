@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="www.plotaroute.com" version="1.1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+<desc>Route created on plotaroute.com</desc>
+</metadata>
+<wpt lat="21.196349" lon="72.805171">
+<time>2019-05-31T00:00:00Z</time>
+<name>Start on </name>
+<cmt>Start on </cmt>
+<desc>Start on </desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.198849" lon="72.806848">
+<time>2019-05-31T00:03:59Z</time>
+<name>Turn right</name>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.198781" lon="72.807305">
+<time>2019-05-31T00:04:34Z</time>
+<name>Keep left</name>
+<cmt>Keep left</cmt>
+<desc>Keep left</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.198117" lon="72.811079">
+<time>2019-05-31T00:09:23Z</time>
+<name>Keep right</name>
+<cmt>Keep right</cmt>
+<desc>Keep right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.197967" lon="72.811023">
+<time>2019-05-31T00:09:37Z</time>
+<name>Keep right</name>
+<cmt>Keep right</cmt>
+<desc>Keep right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.197984" lon="72.81086">
+<time>2019-05-31T00:09:50Z</time>
+<name>Keep right</name>
+<cmt>Keep right</cmt>
+<desc>Keep right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.198184" lon="72.810895">
+<time>2019-05-31T00:10:09Z</time>
+<name>Keep right</name>
+<cmt>Keep right</cmt>
+<desc>Keep right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.198117" lon="72.811079">
+<time>2019-05-31T00:10:25Z</time>
+<name>Keep right</name>
+<cmt>Keep right</cmt>
+<desc>Keep right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.197967" lon="72.811023">
+<time>2019-05-31T00:10:39Z</time>
+<name>Keep left</name>
+<cmt>Keep left</cmt>
+<desc>Keep left</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.195576" lon="72.809963">
+<time>2019-05-31T00:14:09Z</time>
+<name>Turn right</name>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.195615" lon="72.809869">
+<time>2019-05-31T00:14:16Z</time>
+<name>Turn sharp</name>
+<cmt>Turn sharp right</cmt>
+<desc>Turn sharp right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.195695" lon="72.809934">
+<time>2019-05-31T00:14:24Z</time>
+<name>Turn right</name>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.195656" lon="72.810027">
+<time>2019-05-31T00:14:32Z</time>
+<name>Turn right</name>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.191174" lon="72.806112">
+<time>2019-05-31T00:22:17Z</time>
+<name>Keep left</name>
+<cmt>Keep left</cmt>
+<desc>Keep left</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.190747" lon="72.805624">
+<time>2019-05-31T00:23:07Z</time>
+<name>Turn right</name>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="21.19374" lon="72.801811">
+<time>2019-05-31T00:29:23Z</time>
+<name>Enter roun</name>
+<cmt>Enter roundabout</cmt>
+<desc>Enter roundabout</desc>
+<sym>Flag, Blue</sym>
+</wpt>
+<trk>
+<name>Unnamed Route</name>
+<trkseg>
+<trkpt lat="21.196349" lon="72.805171">
+<ele>11</ele>
+<time>2019-05-31T00:00:00Z</time></trkpt>
+<trkpt lat="21.196349" lon="72.805171">
+<ele>11</ele>
+<time>2019-05-31T00:00:00Z</time></trkpt>
+<trkpt lat="21.196986" lon="72.805577">
+<ele>12</ele>
+<time>2019-05-31T00:00:59Z</time></trkpt>
+<trkpt lat="21.198561" lon="72.806766">
+<ele>12</ele>
+<time>2019-05-31T00:03:34Z</time></trkpt>
+<trkpt lat="21.198669" lon="72.806774">
+<ele>12</ele>
+<time>2019-05-31T00:03:42Z</time></trkpt>
+<trkpt lat="21.198736" lon="72.806767">
+<ele>12</ele>
+<time>2019-05-31T00:03:48Z</time></trkpt>
+<trkpt lat="21.198793" lon="72.80679">
+<ele>12</ele>
+<time>2019-05-31T00:03:53Z</time></trkpt>
+<trkpt lat="21.198849" lon="72.806848">
+<ele>12</ele>
+<time>2019-05-31T00:03:59Z</time></trkpt>
+<trkpt lat="21.198843" lon="72.807052">
+<ele>13</ele>
+<time>2019-05-31T00:04:14Z</time></trkpt>
+<trkpt lat="21.198843" lon="72.807052">
+<ele>13</ele>
+<time>2019-05-31T00:04:14Z</time></trkpt>
+<trkpt lat="21.198831" lon="72.80718">
+<ele>13</ele>
+<time>2019-05-31T00:04:24Z</time></trkpt>
+<trkpt lat="21.198781" lon="72.807305">
+<ele>13</ele>
+<time>2019-05-31T00:04:34Z</time></trkpt>
+<trkpt lat="21.198717" lon="72.807608">
+<ele>13</ele>
+<time>2019-05-31T00:04:57Z</time></trkpt>
+<trkpt lat="21.198633" lon="72.808262">
+<ele>12</ele>
+<time>2019-05-31T00:05:47Z</time></trkpt>
+<trkpt lat="21.198185" lon="72.810768">
+<ele>12</ele>
+<time>2019-05-31T00:08:57Z</time></trkpt>
+<trkpt lat="21.198184" lon="72.810895">
+<ele>12</ele>
+<time>2019-05-31T00:09:07Z</time></trkpt>
+<trkpt lat="21.198196" lon="72.810935">
+<ele>12</ele>
+<time>2019-05-31T00:09:10Z</time></trkpt>
+<trkpt lat="21.198181" lon="72.81102">
+<ele>11</ele>
+<time>2019-05-31T00:09:16Z</time></trkpt>
+<trkpt lat="21.198117" lon="72.811079">
+<ele>11</ele>
+<time>2019-05-31T00:09:23Z</time></trkpt>
+<trkpt lat="21.198075" lon="72.811087">
+<ele>11</ele>
+<time>2019-05-31T00:09:26Z</time></trkpt>
+<trkpt lat="21.197995" lon="72.811058">
+<ele>11</ele>
+<time>2019-05-31T00:09:33Z</time></trkpt>
+<trkpt lat="21.197967" lon="72.811023">
+<ele>11</ele>
+<time>2019-05-31T00:09:37Z</time></trkpt>
+<trkpt lat="21.197951" lon="72.810981">
+<ele>11</ele>
+<time>2019-05-31T00:09:40Z</time></trkpt>
+<trkpt lat="21.197961" lon="72.810895">
+<ele>12</ele>
+<time>2019-05-31T00:09:47Z</time></trkpt>
+<trkpt lat="21.197984" lon="72.81086">
+<ele>12</ele>
+<time>2019-05-31T00:09:50Z</time></trkpt>
+<trkpt lat="21.198016" lon="72.810835">
+<ele>12</ele>
+<time>2019-05-31T00:09:53Z</time></trkpt>
+<trkpt lat="21.198093" lon="72.810822">
+<ele>12</ele>
+<time>2019-05-31T00:09:59Z</time></trkpt>
+<trkpt lat="21.198126" lon="72.81084">
+<ele>12</ele>
+<time>2019-05-31T00:10:02Z</time></trkpt>
+<trkpt lat="21.198126" lon="72.81084">
+<ele>12</ele>
+<time>2019-05-31T00:10:02Z</time></trkpt>
+<trkpt lat="21.198162" lon="72.81086">
+<ele>12</ele>
+<time>2019-05-31T00:10:05Z</time></trkpt>
+<trkpt lat="21.198184" lon="72.810895">
+<ele>12</ele>
+<time>2019-05-31T00:10:09Z</time></trkpt>
+<trkpt lat="21.198196" lon="72.810935">
+<ele>12</ele>
+<time>2019-05-31T00:10:12Z</time></trkpt>
+<trkpt lat="21.198181" lon="72.81102">
+<ele>11</ele>
+<time>2019-05-31T00:10:18Z</time></trkpt>
+<trkpt lat="21.198117" lon="72.811079">
+<ele>11</ele>
+<time>2019-05-31T00:10:25Z</time></trkpt>
+<trkpt lat="21.198075" lon="72.811087">
+<ele>11</ele>
+<time>2019-05-31T00:10:28Z</time></trkpt>
+<trkpt lat="21.197995" lon="72.811058">
+<ele>11</ele>
+<time>2019-05-31T00:10:35Z</time></trkpt>
+<trkpt lat="21.197967" lon="72.811023">
+<ele>11</ele>
+<time>2019-05-31T00:10:39Z</time></trkpt>
+<trkpt lat="21.197878" lon="72.810959">
+<ele>12</ele>
+<time>2019-05-31T00:10:47Z</time></trkpt>
+<trkpt lat="21.197042" lon="72.810778">
+<ele>11</ele>
+<time>2019-05-31T00:11:56Z</time></trkpt>
+<trkpt lat="21.19607" lon="72.810338">
+<ele>10</ele>
+<time>2019-05-31T00:13:20Z</time></trkpt>
+<trkpt lat="21.195961" lon="72.81027">
+<ele>10</ele>
+<time>2019-05-31T00:13:30Z</time></trkpt>
+<trkpt lat="21.195576" lon="72.809963">
+<ele>9</ele>
+<time>2019-05-31T00:14:09Z</time></trkpt>
+<trkpt lat="21.195592" lon="72.809924">
+<ele>10</ele>
+<time>2019-05-31T00:14:12Z</time></trkpt>
+<trkpt lat="21.195592" lon="72.809924">
+<ele>10</ele>
+<time>2019-05-31T00:14:12Z</time></trkpt>
+<trkpt lat="21.195615" lon="72.809869">
+<ele>10</ele>
+<time>2019-05-31T00:14:16Z</time></trkpt>
+<trkpt lat="21.195695" lon="72.809934">
+<ele>10</ele>
+<time>2019-05-31T00:14:24Z</time></trkpt>
+<trkpt lat="21.195656" lon="72.810027">
+<ele>10</ele>
+<time>2019-05-31T00:14:32Z</time></trkpt>
+<trkpt lat="21.194841" lon="72.809299">
+<ele>11</ele>
+<time>2019-05-31T00:15:57Z</time></trkpt>
+<trkpt lat="21.194269" lon="72.808833">
+<ele>12</ele>
+<time>2019-05-31T00:16:55Z</time></trkpt>
+<trkpt lat="21.193459" lon="72.808261">
+<ele>7</ele>
+<time>2019-05-31T00:18:12Z</time></trkpt>
+<trkpt lat="21.192483" lon="72.807508">
+<ele>8</ele>
+<time>2019-05-31T00:19:49Z</time></trkpt>
+<trkpt lat="21.19136" lon="72.806294">
+<ele>10</ele>
+<time>2019-05-31T00:21:56Z</time></trkpt>
+<trkpt lat="21.191193" lon="72.806144">
+<ele>10</ele>
+<time>2019-05-31T00:22:14Z</time></trkpt>
+<trkpt lat="21.191174" lon="72.806112">
+<ele>10</ele>
+<time>2019-05-31T00:22:17Z</time></trkpt>
+<trkpt lat="21.191036" lon="72.805897">
+<ele>9</ele>
+<time>2019-05-31T00:22:36Z</time></trkpt>
+<trkpt lat="21.191036" lon="72.805897">
+<ele>9</ele>
+<time>2019-05-31T00:22:36Z</time></trkpt>
+<trkpt lat="21.190747" lon="72.805624">
+<ele>8</ele>
+<time>2019-05-31T00:23:07Z</time></trkpt>
+<trkpt lat="21.19177" lon="72.8047">
+<ele>12</ele>
+<time>2019-05-31T00:24:54Z</time></trkpt>
+<trkpt lat="21.192272" lon="72.80415">
+<ele>12</ele>
+<time>2019-05-31T00:25:52Z</time></trkpt>
+<trkpt lat="21.193585" lon="72.802003">
+<ele>12</ele>
+<time>2019-05-31T00:29:04Z</time></trkpt>
+<trkpt lat="21.19374" lon="72.801811">
+<ele>12</ele>
+<time>2019-05-31T00:29:23Z</time></trkpt>
+<trkpt lat="21.193832" lon="72.801697">
+<ele>11</ele>
+<time>2019-05-31T00:29:34Z</time></trkpt>
+<trkpt lat="21.193832" lon="72.801697">
+<ele>11</ele>
+<time>2019-05-31T00:29:34Z</time></trkpt>
+<trkpt lat="21.193913" lon="72.801652">
+<ele>11</ele>
+<time>2019-05-31T00:29:41Z</time></trkpt>
+<trkpt lat="21.194076" lon="72.801656">
+<ele>11</ele>
+<time>2019-05-31T00:29:54Z</time></trkpt>
+<trkpt lat="21.194152" lon="72.801699">
+<ele>11</ele>
+<time>2019-05-31T00:30:01Z</time></trkpt>
+<trkpt lat="21.194207" lon="72.801759">
+<ele>11</ele>
+<time>2019-05-31T00:30:08Z</time></trkpt>
+<trkpt lat="21.194244" lon="72.801833">
+<ele>12</ele>
+<time>2019-05-31T00:30:14Z</time></trkpt>
+<trkpt lat="21.194259" lon="72.801914">
+<ele>12</ele>
+<time>2019-05-31T00:30:20Z</time></trkpt>
+<trkpt lat="21.194253" lon="72.801998">
+<ele>12</ele>
+<time>2019-05-31T00:30:26Z</time></trkpt>
+<trkpt lat="21.194576" lon="72.802558">
+<ele>13</ele>
+<time>2019-05-31T00:31:15Z</time></trkpt>
+<trkpt lat="21.196115" lon="72.80499">
+<ele>11</ele>
+<time>2019-05-31T00:34:55Z</time></trkpt>
+<trkpt lat="21.196349" lon="72.805171">
+<ele>11</ele>
+<time>2019-05-31T00:35:18Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>
